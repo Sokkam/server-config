@@ -1,4 +1,4 @@
-* 刚刚已经安装好了 gcc 环境了
+* 刚刚已经安装好了 ```gcc``` 环境了
 * 准备好redis的压缩包
 ```
 tar -xvf redis-4.0.1.tar.gz -C /usr/local
