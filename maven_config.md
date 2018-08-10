@@ -1,4 +1,4 @@
-* 解压下载好的maven
+* 解压下载好的 ```maven```
 ```
 tar -zxvf apache-maven-3.5.4-bin.tar.gz
 ```
