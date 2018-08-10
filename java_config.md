@@ -16,7 +16,7 @@ export JAVA_HOME=/root/package/jdk/jdk8
 export CLASSPATH=.:${JAVA_HOME}/lib/tools.jar:${JAVA_HOME}/jre/lib/dt.jar
 export PATH=${JAVA_HOME}/bin:${JAVA_HOME}/jre/bin:$PATH
 ```
-* 退出vim命令，并使 /etc/profile 生效
+* 退出vim命令，并使 ```/etc/profile``` 生效
 ```
 source /etc/profile
 ```
