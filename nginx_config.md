@@ -1,4 +1,4 @@
-* 准备好nginx.tar.gz的包
+* 准备好 ```nginx.tar.gz``` 的包
 ```
 tar -zxvf nginx-1.15.2.tar.gz
 ```
@@ -26,18 +26,18 @@ whereis nginx
 ```
 cd /sbin
 ```
-* 执行nginx服务测试，测试完通过先关闭
+* 执行 ```nginx``` 服务测试，测试完通过先关闭
 ```
 # 执行完访问服务器，通过显示nginx页面算成功
 ./nginx
 ./nginx -s stop
 ```
-* 然后进入到```conf```目录
+* 然后进入到 ```conf``` 目录
 ```
 cd ../conf
 vi ./nginx.conf
 ```
-* 添加配置，假设我有个服务端口是```8090```
+* 添加配置，假设我有个服务端口是 ```8090```
 ```
 server {
     listen       80;
@@ -59,7 +59,7 @@ server {
             proxy_pass http://localhost:8090;
         }
 ```
-* 退出回到刚刚的```sbin```目录，执行nginx
+* 退出回到刚刚的 ```sbin``` 目录，执行 ```nginx```
 ```
 ./nginx
 ```
