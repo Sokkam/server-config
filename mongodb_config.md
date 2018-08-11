@@ -10,7 +10,7 @@ mv /解压后的文件夹 /指定要移动的路径
 ```
 * 然后添加配置环境
 ```
-# 也是要配一个 ```mongodb``` 的地址，也就是/指定要移动的路径下
+# 也是要配一个 mongodb 的地址，也就是/指定要移动的路径下
 export MONGODB=/指定要移动的路径下
 export PATH=${JAVA_HOME}/bin:${JAVA_HOME}/jre/bin:$PATH:${MAVEN_HOME}/bin:$PATH:${MONGODB}/bin:$PATH
 ```
