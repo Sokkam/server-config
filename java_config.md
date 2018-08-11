@@ -1,3 +1,4 @@
+> [JDK下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * 准备好JDK放在服务器目录下，我这里用的是JDK8
 ```
 tar -zxvf /root/package/jdk/jdk-8u181-linux-x64.tar.gz
