@@ -1,4 +1,4 @@
-[Nginx Download](http://nginx.org/en/download.html)
+> [Nginx Download](http://nginx.org/en/download.html)
 * 准备好 ```nginx.tar.gz``` 的包
 ```
 tar -zxvf nginx-1.15.2.tar.gz
