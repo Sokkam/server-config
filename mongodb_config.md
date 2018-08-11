@@ -1,3 +1,25 @@
+> [MongoDB Download](https://www.mongodb.com/download-center#community)
+### 两种方法可以安装
+#### 方法一：
+* 准备好tgz文件放到服务器上，或者从服务器上直接下载
+```
+# 解压
+tar -zxvf 压缩文件名
+# 可将解压后的文件夹移动到指定路径，也可以在当前路径下操作
+mv /解压后的文件夹 /指定要移动的路径
+```
+* 然后添加配置环境
+```
+# 也是要配一个 ```mongodb``` 的地址，也就是/指定要移动的路径下
+export MONGODB=/指定要移动的路径下
+export PATH=${JAVA_HOME}/bin:${JAVA_HOME}/jre/bin:$PATH:${MAVEN_HOME}/bin:$PATH:${MONGODB}/bin:$PATH
+```
+* 可创建数据库目录
+```
+mkdir -p /data/db
+mongo --dbpath /data/db
+```
+#### 方法二：
 ```
 vi /etc/yum.repos.d/mongodb-org-3.4.repo
 ```
