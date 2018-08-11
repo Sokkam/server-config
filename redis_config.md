@@ -1,3 +1,4 @@
+> [Redis](http://www.redis.cn/download.html)
 * 刚刚已经安装好了 ```gcc``` 环境了
 * 准备好redis的压缩包
 ```
