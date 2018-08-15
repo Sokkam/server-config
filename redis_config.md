@@ -49,7 +49,7 @@ dir /找一个你自己想要的路径
 ```
 * 一定要先启动服务才行！！
 ```
-./redis-server
+./redis-server redis-conf
 ```
 * 设置了密码后启动redis就需要添加密码才能启动
 ```
