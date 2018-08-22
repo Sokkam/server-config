@@ -45,5 +45,8 @@ server {
 ![image](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_slc_1.png)
 * 进去后是这个样子的
 ![image](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_slc_2.png)
-* 然后就到了自己动手配置的时候了，主机记录填写的就是域名前缀，比如刚刚我们在```nginx.conf```中配置的三个url：a.domainname.com、b.domainname.com和c.domainname.com；主机记录填写a或者b或者c
-* 然后就到了自己动手配置的时候了，主机记录填写的就是域名前缀，比如刚刚我们在```nginx.conf```中配置的三个url：a.domainname.com、b.domainname.com和c.domainname.com；主机记录填写a或者
+* 然后就到了自己动手配置的时候了，主机记录填写的就是域名前缀，比如刚刚我们在```nginx.conf```中配置的三个url：a.domainname.com、b.domainname.com和c.domainname.com
+1. 主机记录填写a或者b或者c
+2. 记录值填写你项目部署所在的服务器，没错也正是你nginx配置的那个服务器的公网ip
+![image](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_slc_3.png)
+* 然后再根据nginx上配置的server_name来进行访问
