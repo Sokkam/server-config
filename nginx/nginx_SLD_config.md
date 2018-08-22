@@ -42,3 +42,8 @@ server {
 ```
 * 配置好后重启```nginx```
 * 接下来就是去我们的云服务器上进行二级子域名的配置，小弟这里用的是腾讯云，域名也是已经经过备案了的；点击解析
+![image](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_slc_1.png)
+* 进去后是这个样子的
+![image](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_slc_2.png)
+* 然后就到了自己动手配置的时候了，主机记录填写的就是域名前缀，比如刚刚我们在```nginx.conf```中配置的三个url：a.domainname.com、b.domainname.com和c.domainname.com；主机记录填写a或者b或者c
+* 然后就到了自己动手配置的时候了，主机记录填写的就是域名前缀，比如刚刚我们在```nginx.conf```中配置的三个url：a.domainname.com、b.domainname.com和c.domainname.com；主机记录填写a或者
