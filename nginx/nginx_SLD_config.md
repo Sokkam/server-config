@@ -1,4 +1,4 @@
-* 首先进入到[nginx](https://github.com/Sokkam/server_config/blob/master/nginx_config.md)安装目录下，进入conf文件夹
+* 首先进入到[nginx](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_config.md)安装目录下，进入conf文件夹
 ```
 cd conf
 ls
