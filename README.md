@@ -5,3 +5,4 @@
 * [MongoDB](https://github.com/Sokkam/server_config/blob/master/mongodb_config.md)
 * [redis](https://github.com/Sokkam/server_config/blob/master/redis_config.md)
 * [nginx](https://github.com/Sokkam/server_config/blob/master/nginx_config.md)
+* [nginx结合腾讯云配置二级域名（多端口映射）]()
