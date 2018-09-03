@@ -6,4 +6,3 @@
 * [redis](https://github.com/Sokkam/server_config/blob/master/redis_config.md)
 * [nginx](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_config.md)
 * [nginx 结合腾讯云配置二级域名（多端口映射）](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_SLD_config.md)
-
