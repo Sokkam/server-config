@@ -12,4 +12,3 @@
 * [nginx](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_config.md)
 * [nginx 结合腾讯云配置二级域名（多端口映射）](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_SLD_config.md)
 * [nginx 配置SSL证书](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_ssl_config.md)(未完成)
-* [nginx 搭建COS服务自定义域名访问](https://github.com/Sokkam/server_config/blob/master/nginx/nginx_cos_config.md)(未完成)
