@@ -2,6 +2,7 @@
 > 参考腾讯云SSL证书配置 https://cloud.tencent.com/document/product/400/4143
 1. 首先你要有一个域名
 2. 登录，点击去到```SSL证书管理```，点击申请证书
+![image](https://github.com/Sokkam/server_config/blob/master/nginx/ssl_pic.png)
 * 通用名称可写一二级域名，通过Nginx配置以及腾讯云```域名管理云解析```即可
 * 申请邮箱你懂得
 3. 申请好后，有个审核时间，审核成功后，就可以去对证书进行一个下载的操作，我们这里需要用到的是Nginx的，所以只列出Nginx的证书文件
