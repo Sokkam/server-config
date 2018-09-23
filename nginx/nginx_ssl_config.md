@@ -53,6 +53,7 @@ server {
 6. 配置好后进行保存，然后进入到sbin目录```cd ../sbin```，重启nginx即可
 ### 问题
 ##### 如出现 ```nginx: [emerg] unknown directive "ssl"```
+> 参考 https://blog.csdn.net/weiyangdong/article/details/80008543
 1. 回到之前解压nginx的目录，执行```./configure --with-http_ssl_module```
 2. 如报以下错误的话
 ```
