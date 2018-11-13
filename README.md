@@ -1,4 +1,4 @@
-# server_config
+# server-config
 > 服务器环境配置（以防重装的时候方便）
 ### JAVA 相关配置
 * [Java](https://github.com/Sokkam/server_config/blob/master/java_config.md)
