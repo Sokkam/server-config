@@ -12,15 +12,11 @@ mv /解压后的文件夹 /指定要移动的路径
 * 然后添加配置环境
 ```
 # 也是要配一个 mongodb 的地址，也就是/指定要移动的路径下
-
 vi /etc/profile
-
 export MONGODB_HOME=/usr/local/mongodb(这里是你的mongodb放置路径，可修改)
-
 export PATH=$PATH:$MONGODB_HOME/bin
 
 保存后，重启系统配置
-
 source /etc/profile
 ```
 
