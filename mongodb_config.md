@@ -7,16 +7,15 @@
 tar -zxvf 压缩文件名
 # 可将解压后的文件夹移动到指定路径，也可以在当前路径下操作
 mv /解压后的文件夹 /指定要移动的路径
+推荐放在/usr/local/下
 ```
 * 然后添加配置环境
 ```
 # 也是要配一个 mongodb 的地址，也就是/指定要移动的路径下
-export MONGODB=/指定要移动的路径下
-export PATH=${JAVA_HOME}/bin:${JAVA_HOME}/jre/bin:$PATH:${MAVEN_HOME}/bin:$PATH:${MONGODB}/bin:$PATH
 
 vi /etc/profile
 
-export MONGODB_HOME=/usr/local/mongodb
+export MONGODB_HOME=/usr/local/mongodb(这里是你的mongodb放置路径，可修改)
 
 export PATH=$PATH:$MONGODB_HOME/bin
 
@@ -27,7 +26,8 @@ source /etc/profile
 
 * 可创建数据库目录
 ```
-mkdir -p /data/db
+mkdir -p data/db
+mkdir logs
 mongo --dbpath /data/db
 ```
 #### 方法二：
