@@ -13,7 +13,18 @@ mv /解压后的文件夹 /指定要移动的路径
 # 也是要配一个 mongodb 的地址，也就是/指定要移动的路径下
 export MONGODB=/指定要移动的路径下
 export PATH=${JAVA_HOME}/bin:${JAVA_HOME}/jre/bin:$PATH:${MAVEN_HOME}/bin:$PATH:${MONGODB}/bin:$PATH
+
+vi /etc/profile
+
+export MONGODB_HOME=/usr/local/mongodb
+
+export PATH=$PATH:$MONGODB_HOME/bin
+
+保存后，重启系统配置
+
+source /etc/profile
 ```
+
 * 可创建数据库目录
 ```
 mkdir -p /data/db
